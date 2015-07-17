@@ -49,3 +49,7 @@ a {
 nav a.selected, nav a:hover {
   color: #00BFFF;
 }
+
+#contact.selected, #contact:hover {
+  color: orange;
+}
