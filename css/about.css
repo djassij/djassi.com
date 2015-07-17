@@ -14,11 +14,11 @@ nav {
 
 #hey, #description {
 	font-family: 'Lato', sans-serif;
-	color: #E0FFFF;
+	color: orange;
 	text-decoration: none;
 	text-align: center;
 	padding: 10px 0;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 #hey {
