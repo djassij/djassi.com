@@ -12,9 +12,9 @@ nav {
 	background-color: orange;
 }
 
-#pic-one, #pic-two {
-	text-align: center;
-	padding: 10px;
+#pic {
+	display: block;
+    	margin: 0 auto;
 }
 
 #hey, #description {
