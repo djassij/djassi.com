@@ -12,8 +12,13 @@ nav {
 	background-color: orange;
 }
 
-#pic {
-	text-align: inline-block;
+#pic-one {
+	text-align: left;
+	padding: 10px;
+}
+
+#pic-two {
+	text-align: right;
 	padding: 10px;
 }
 
