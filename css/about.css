@@ -12,6 +12,15 @@ nav {
 	background-color: orange;
 }
 
+footer {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: orange;
+	font-size: 15px;
+	padding-top: 250px;
+}
+
 #pic {
 	display: block;
     	margin: 0 auto;
