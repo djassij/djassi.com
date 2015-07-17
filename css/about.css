@@ -13,13 +13,13 @@ nav {
 }
 
 #pic-one {
-	display: inline-block;
+	/*display: inline-block;*/
     	padding-left: 60px;
     	padding-right: 10px;
 }
 
 #pic-one {
-	display: inline-block;
+	/*display: inline-block;*/
     	padding-left: 10px;
     	padding-right: 60px;
 }
