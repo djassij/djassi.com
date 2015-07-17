@@ -14,7 +14,8 @@ nav {
 
 #pic {
 	display: inline-block;
-    	margin: 0 auto;
+    	padding-left: 30px;
+    	padding-right: 30px;
 }
 
 #hey, #description {
