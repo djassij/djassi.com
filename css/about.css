@@ -17,16 +17,16 @@ nav {
 	color: orange;
 	text-decoration: none;
 	text-align: center;
-	padding: 10px 0;
+	padding: 5px 0;
 	/*background-color: orange;*/
 }
 
 #hey {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #description {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 nav ul {
