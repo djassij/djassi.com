@@ -2,7 +2,7 @@ body {
 	background-color: #E0FFFF;
 }
 
-nav, #description {
+nav {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	color: #E0FFFF;
@@ -12,8 +12,21 @@ nav, #description {
 	background-color: orange;
 }
 
-#hey{
+#hey, #description {
+	font-family: 'Lato', sans-serif;
+	color: #E0FFFF;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0;
+	background-color: orange;
+}
+
+#hey {
 	font-size: 30px;
+}
+
+#description {
+	font-size: 20px;
 }
 
 nav ul {
