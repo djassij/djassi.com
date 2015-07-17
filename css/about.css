@@ -50,6 +50,10 @@ nav a.selected, nav a:hover {
   color: #00BFFF;
 }
 
+#contact {
+	color: orange;
+}
+
 #contact.selected, #contact:hover {
-  color: orange;
+  color: #00BFFF;
 }
