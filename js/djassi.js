@@ -1,13 +1,19 @@
-function animationHover(element, animation){
-    element = $(element);
-    element.hover(
+function swingHover(#nav, swing){
+    #nav = $(#nav);
+    #nav.hover(
         function() {
-            element.addClass('animated ' + animation);        
+            #nav.addClass('animated ' + swing);        
         },
         function(){
-            //wait for animation to finish before removing classes
+            //wait for swing to finish before removing classes
             window.setTimeout( function(){
-                element.removeClass('animated ' + animation);
+                #nav.removeClass('animated ' + swing);
             }, 2000);         
         });
 }
+
+$(document).ready(function(){
+    $('#logo').each(function() {
+        swingHover(this, 'swing');
+    });
+});
