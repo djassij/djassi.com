@@ -51,6 +51,7 @@ a {
 	color: #E0FFFF;
 	text-decoration: none;
 }
-nav a.selected, nav a:hover, {
+
+nav a.selected, nav a:hover, #link.selected, #link:hover{
   color: #00BFFF;
 }
