@@ -1,19 +1,19 @@
-function swingHover('#nav', 'swing'){
-    '#nav' = $('#nav');
-    '#nav'.hover(
+function animationHover(element, animation){
+    element = $(element);
+    element.hover(
         function() {
-            '#nav'.addClass('animated ' + 'swing');        
+            element.addClass('animated ' + animation);        
         },
         function(){
-            //wait for swing to finish before removing classes
+            //wait for animation to finish before removing classes
             window.setTimeout( function(){
-                '#nav'.removeClass('animated ' + 'swing');
+                element.removeClass('animated ' + animation);
             }, 2000);         
         });
 }
 
 $(document).ready(function(){
-    $('#logo').each(function() {
-        swingHover(this, 'swing');
+    $('#nav').each(function() {
+        animationHover(this, 'swing');
     });
 });
