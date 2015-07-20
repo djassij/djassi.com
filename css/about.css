@@ -59,9 +59,5 @@ nav a.selected, nav a:hover {
 }
 
 #contact {
-	color: orange;
-}
-
-#contact.selected, #contact:hover {
-  color: #00BFFF;
+	color: #00BFFF;
 }
