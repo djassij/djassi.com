@@ -34,3 +34,24 @@ a {
 nav a.selected, nav a:hover {
   color: #00BFFF;
 }
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  text-decoration: none;
+}
+
+#gallery li p{
+  margin: 0;
+  padding: 10px;
+  font-size: 12px;
+  color: orange;
+  font-family: 'Lato', sans-serif;
+}
