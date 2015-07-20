@@ -48,3 +48,11 @@ nav a.selected, nav a:hover {
   	color: orange;
   	font-family: 'Lato', sans-serif;
 }
+
+#left {
+	float: left;
+}
+
+#right {
+ 	float: right;
+}
