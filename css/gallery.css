@@ -40,7 +40,7 @@ nav a.selected, nav a:hover {
 }
 
 #gallery li {
-	margin: 2.5%;
+	margin: 1.5%;
 	float: left;
   	text-decoration: none;
 }
