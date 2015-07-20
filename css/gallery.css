@@ -36,20 +36,15 @@ nav a.selected, nav a:hover {
 }
 
 #gallery {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 #gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
+  float: center;
   text-decoration: none;
 }
 
 #gallery li p{
-  margin: 0;
   padding: 7px;
   font-size: 18px;
   color: orange;
