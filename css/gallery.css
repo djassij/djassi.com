@@ -50,9 +50,9 @@ nav a.selected, nav a:hover {
 }
 
 #left {
-	float: left;
+	float: right;
 }
 
 #right {
- 	float: right;
+ 	float: left;
 }
