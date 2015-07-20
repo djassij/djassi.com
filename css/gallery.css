@@ -35,14 +35,11 @@ nav a.selected, nav a:hover {
   	color: #00BFFF;
 }
 
-#gallery {
-  	list-style: none;
-}
-
 #gallery li {
 	margin: 1.5%;
 	float: left;
   	text-decoration: none;
+  	list-style: none;
 }
 
 #gallery li p{
