@@ -19,6 +19,9 @@ nav {
 	padding: none;
 	background-color: orange;
 	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 nav ul {
